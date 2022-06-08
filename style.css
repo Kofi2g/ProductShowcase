@@ -26,3 +26,7 @@ img {
     background-color: transparent;
     cursor: pointer;
 }
+
+.main-content {
+    padding: 1rem;
+}
