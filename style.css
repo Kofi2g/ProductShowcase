@@ -12,7 +12,7 @@
 
 }
 
-img {
+.hero-image {
     margin-left: 25%;
     width: 50%;    
 }
@@ -29,4 +29,37 @@ img {
 
 .main-content {
     padding: 1rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.review-container {
+    margin-bottom: 3.5rem;
+    font-size: 1.1rem;
+    max-width: 50%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.img-container-images {
+    width: 22%;
+}
+
+.showcase {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.showcase-img {
+    width: 40%;
 }
