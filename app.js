@@ -84,8 +84,8 @@ buttons.forEach((btn) => {
             let productReviews = reviews.map(review => {
                 return ` 
                 <div class="review-container">
-                <p>${review.name}</p>
-                <p>${review.location}</p>
+                <p><span>${review.name}</span>
+                <span class="date-location">${review.location}</span></p>
                 <p>${review.description}</p>
                 </div>`
             }).join("")

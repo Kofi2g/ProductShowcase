@@ -6,8 +6,13 @@
     margin: 0;
 }
 
+.nav-heading {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+    padding: 1rem;
+}
+
 h2 {
-    margin-bottom: 2rem;
+    margin: 2rem 0 6rem 0;
 }
 
 .hero-container {
@@ -18,21 +23,41 @@ h2 {
 
 .hero-image {
     margin-left: 25%;
-    width: 50%;    
+    width: 50%; 
+    margin-bottom: 7.5rem;   
 }
 
 .tab-group {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(246, 246, 246);
+    text-align: center;
 }
 
 .tab-links {
+    margin: 0 5rem;
     border: none;
     background-color: transparent;
     cursor: pointer;
+    color: rgb(75, 75, 75);
+}
+
+.tab-links:focus {
+    color: blue;
 }
 
 .main-content {
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-details-container {
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
 }
 
 .review-container {
@@ -61,5 +86,16 @@ h2 {
 }
 
 .showcase-img {
-    width: 40%;
+    width: 50%;
+    height: 50%;
+}
+
+span {
+    color: blue;
+}
+
+.date-location {
+    color: rgb(0, 0, 0);
+    font-size: .9rem;
+    margin-left: 2rem;
 }
