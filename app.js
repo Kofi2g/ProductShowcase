@@ -76,10 +76,8 @@ buttons.forEach((btn) => {
         const menu = e.currentTarget.dataset.id;
 
         // Compare dataset to title heading
-        if (menu === "product") {
-            productOverview()
-
-        } else if (menu === "reviews") {
+        if (menu === "product") return productOverview()
+        if (menu === "reviews") {
             // Display dyanmic content using map
             let productReviews = reviews.map(review => {
                 return ` 
